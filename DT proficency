@@ -1,0 +1,6 @@
+#!/bin/bash
+mkdir swdt-class-todo
+cd swdt-class-todo
+git clone https://kempal01@bitbucket.org/yasinovskyy/dt-proficiency-todo.git
+git branch dirty
+find -type d -name _pycache_ -exec rm {} \;
